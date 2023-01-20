@@ -26,6 +26,7 @@ import { ThemeContext } from '../../contexts/ThemeContext';
 import { socialsData } from '../../data/socialsData';
 import { contactsData } from '../../data/contactsData';
 import './Contacts.css';
+import { toast } from 'react-toastify';
 
 function Contacts() {
     const [open, setOpen] = useState(false);
@@ -149,7 +150,9 @@ function Contacts() {
                     setEmail('');
                     setMessage('');
                     setOpen(false);
+                    toast.success("E-Mail Sended")
                 });
+                
             } else {
                 setErrMsg('Invalid email');
                 setOpen(true);
