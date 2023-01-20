@@ -150,7 +150,7 @@ function Contacts() {
                     setEmail('');
                     setMessage('');
                     setOpen(false);
-                    toast.success("E-Mail Sended")
+                    toast.success("E-Mail Sent")
                 });
                 
             } else {
