@@ -52,7 +52,7 @@ export const projectsData = [
         tags: ['MongoDB', 'Express', "nodemon"],
         code: 'https://github.com/murathanbakti/bookingApp-clone-api',
         demo: 'https://github.com/murathanbakti/bookingApp-clone-api',
-        image: four
+        image: three
     },
     {
         id: 6,
