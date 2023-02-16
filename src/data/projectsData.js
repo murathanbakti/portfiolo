@@ -29,6 +29,15 @@ export const projectsData = [
     },
     {
         id: 3,
+        projectName: 'CSS Animation',
+        projectDesc: 'That was a my CSS animation',
+        tags: ['HTML', 'CSS'],
+        code: 'https://github.com/murathanbakti/CSS-Animation',
+        demo: 'https://css-animation-gamma.vercel.app/',
+        image: four
+    },
+    {
+        id: 4,
         projectName: 'BookingApp ',
         projectDesc: 'This is frontend of code booking app clone',
         tags: ['React', 'CSS', 'Javascript'],
@@ -37,7 +46,7 @@ export const projectsData = [
         image: three
     },
     {
-        id: 4,
+        id: 5,
         projectName: 'BookingApp',
         projectDesc: 'This is frontend of code booking app clone',
         tags: ['MongoDB', 'Express', "nodemon"],
@@ -46,7 +55,7 @@ export const projectsData = [
         image: four
     },
     {
-        id: 5,
+        id: 6,
         projectName: 'BookingApp',
         projectDesc: 'This is admin panel of Booking App',
         tags: ['React', 'Material UI'],
