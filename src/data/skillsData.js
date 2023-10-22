@@ -7,6 +7,11 @@
     'CSS',
     'MongoDB',
     'Microsoft Office',
+    'PHP',
+    'Tailwind',
+    'Wordpress',
+    'Firebase',
+    'MySQL'
     
 ]
 
